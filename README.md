@@ -1,6 +1,6 @@
 # WAFPecker
 
-![image-20241221225512129](https://xu17-1326239041.cos.ap-guangzhou.myqcloud.com/xu17/202412212255908.png)
+![image-20241221225512129](https://xu17-1326239041.cos.ap-guangzhou.myqcloud.com/xu17/202412212324237.png)
 
 ### Introduction
 
