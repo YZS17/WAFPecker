@@ -1,5 +1,7 @@
 # WAFPecker
 
+![image-20241221225512129](https://xu17-1326239041.cos.ap-guangzhou.myqcloud.com/xu17/202412212255908.png)
+
 ### Introduction
 
 - `A tool for bypassing SSTI-WAF used in CTF in conjunction with fenjing.`
@@ -8,8 +10,6 @@
 
 - WAFPecker is a project written to solve this kind of situation. By directly entering a Blacklist, you can simulate the testable environment of fenjing, and cooperate with fenjing to generate a valid payload in the fastest way. Hope that this tool can give your some help.
 - Good Luck for you! Have fun in your CTF game! 
-
-![image-20241221222735707](https://xu17-1326239041.cos.ap-guangzhou.myqcloud.com/xu17/202412212227926.png)
 
 ### Usage
 
