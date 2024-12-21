@@ -1,0 +1,1 @@
+["os", "system", "eval", 'setstate', "globals", 'exec', '__builtins__', 'template', 'render', '\\','compile', 'requests', 'exit',  'pickle',"class","mro","flask","sys","base","init","config","session"]
