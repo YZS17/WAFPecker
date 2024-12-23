@@ -12,13 +12,16 @@ def ssti_waf(app):
             # 如果文件不存在或内容格式不正确，返回错误信息
             return f"Error reading blacklist file: {e}"
 
-        template_code = request.form.get("waf")
-
-        # 检查黑名单中的词汇是否出现在模板代码中
+        waf = request.form.get("waf")
+        #根据需求打开大写或小写WAF
+        # if waf:
+        #     waf = waf.lower()
+        # if waf: 
+        #     waf = waf.upper()
         for black in blacklist:
-            if black in template_code:
+            if black in waf:
                 return "Forbidden content detected!"
 
-        result = render_template_string(template_code)
+        result = render_template_string(waf)
         print(result)
         return result if result is not None else 'error'
